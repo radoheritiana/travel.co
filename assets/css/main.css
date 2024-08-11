@@ -89,7 +89,7 @@ main {
 }
 
 .hero {
-    background-image: url("../images/hero1.jpeg");
+    background-image: url("../images/hero.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
