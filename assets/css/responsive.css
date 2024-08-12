@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     header {
         padding: 1em 4em;
     }
@@ -93,4 +93,57 @@
     .pub-text p {
         font-size: 16px;
     }
+
+    .why {
+        padding: 4em;
+    }
+
+    .why-grid {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .why-left, .why-right {
+        width: 100%;
+    }
+
+    .why-left {
+        height: auto;
+        width: 100%;
+        max-height: 50vh;
+    }
+
+    .why-left img {
+        width: 100%;
+    }
+
+    .why-right {
+        flex-direction: row;
+        height: auto;
+        gap: 1em;
+    }
+
+    .why-right-item {
+        width: 100%;
+        gap: 1em;
+    }
+
+    .why-right-item div {
+        min-height: 30vh;
+        max-height: 40vh;
+    }
+
+    .why-right-item div img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    footer div:first-child {
+        padding: 3em 4em;
+    }
+
+    footer div:last-child {
+        padding: 2em 4em;
+    }
+
 }

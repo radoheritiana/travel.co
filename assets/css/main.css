@@ -315,3 +315,116 @@ main {
     background-color: transparent;
     font-size: 18px;
 }
+
+.why {
+    padding: 5em 15em;
+}
+
+.why h1 {
+    text-align: center;
+    font-size: 36px;
+    color: var(--blue-primary);
+    font-family: 'Poppins-light';
+    margin-bottom: 0.3em;
+}
+
+.why h4 {
+    font-style: italic;
+    color: var(--text-secodary);
+    font-family: "Poppins-light";
+    text-align: center;
+    font-size: 18px;
+}
+
+.why-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4em;
+    justify-content: space-between;
+}
+
+.why-left {
+    width: 49%;
+    height: 60vh;
+}
+
+.why-left img {
+    width: auto;
+    height: 100%;
+}
+
+.why-right {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    flex-wrap: wrap;
+}
+
+.why-right-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 48%;
+}
+
+.why-right-item div {
+    overflow: hidden;
+    width: 100%;
+    height: 48%;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.why-right-item div img {
+    width: 100%;
+    height: auto;
+}
+
+.why-right-item div h3, .why-right-item div p {
+    padding: 0.3em 1em;
+}
+
+.why-right-item div h3 {
+    color: #111111;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins-regular';
+}
+
+.why-right-item div p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+footer div:first-child {
+    background-color: #292e33;
+    color: var(--white-color);
+    padding: 3em 15em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+footer div:first-child p {
+    font-style: italic;
+}
+
+footer div:last-child {
+    background-color: #333333;
+    color: var(--white-color);
+    padding: 2em 15em;
+    text-align: center;
+}
+
+footer div:last-child p {
+    font-size: 14px;
+}
