@@ -1,4 +1,4 @@
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 680px) {
     header {
         padding: 1em 4em;
     }
@@ -146,4 +146,154 @@
         padding: 2em 4em;
     }
 
+}
+
+@media screen and (max-width: 992px) and (min-width: 680px){
+    header {
+        padding: 1em 8em;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        font-size: 40px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .brand {
+        font-size: 26px;
+    }
+
+    .hero {
+        padding: 0 8em;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-text p {
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 60px;
+        font-weight: 300;
+        font-family: "Poppins-light";
+    }
+
+    .most-search {
+        padding: 4em 8em;
+    }
+
+    .most-search h1 {
+        font-size: 28px;
+    }
+
+    .most-search h4 {
+        font-size: 14px;
+    }
+
+    .list {
+        padding-top: 3em;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .parcourir {
+        padding: 3em 8em;
+        flex-direction: column;
+    }
+
+    .activite {
+        width: 100%;
+    }
+
+    .bulletin {
+        width: 100%;
+        padding: 0;
+    }
+
+    .bulletin-form {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .bulletin-form input {
+    max-width: 100%;
+    }
+
+    .publication .container {
+        padding: 4em 8em;
+    }
+
+    .pub-text {
+        max-width: 100%;
+    }
+
+    .pub-text h3 {
+        font-size: 28px;
+    }
+
+    .pub-text p {
+        font-size: 16px;
+    }
+
+    .why {
+        padding: 4em 9em;
+    }
+
+    .why-grid {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .why-left, .why-right {
+        width: 100%;
+    }
+
+    .why-left {
+        height: auto;
+        width: 100%;
+        max-height: 50vh;
+    }
+
+    .why-left img {
+        width: 100%;
+    }
+
+    .why-right {
+        flex-direction: row;
+        height: auto;
+        gap: 1em;
+    }
+
+    .why-right-item {
+        width: 100%;
+        gap: 1em;
+    }
+
+    .why-right-item div {
+        min-height: 30vh;
+        max-height: 40vh;
+    }
+
+    .why-right-item div img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    footer div:first-child {
+        padding: 3em 8em;
+    }
+
+    footer div:last-child {
+        padding: 2em 8em;
+    }
 }
