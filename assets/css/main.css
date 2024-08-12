@@ -274,14 +274,40 @@ main {
 
 .publication {
     background-image: url("../images/pub.jpg");
-    padding: 10em 15em 5em 15em;
     background-size: cover;
+}
+
+.publication .container {
     display: flex;
     justify-content: end;
     align-items: center;
+    padding: 12em 15em 5em 15em;
+    width: 100%;
+    height: 100%;
+    background-color: #00000053;
 }
 
 .pub-text {
-    max-width: 40%;
+    max-width: 65%;
     text-align: right;
+    color: var(--white-color);
+}
+
+.pub-text h3 {
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+
+.pub-text p {
+    font-size: 20px;
+    margin-bottom: 1.5em;
+}
+
+.pub-text button {
+    border: 3px solid var(--white-color);
+    color: var(--white-color);
+    padding: 0.8em 2em;
+    background-color: transparent;
+    font-size: 18px;
 }
